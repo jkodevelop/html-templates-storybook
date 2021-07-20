@@ -17,7 +17,13 @@
     "@storybook/addon-essentials": "^6.3.4",
     "@storybook/addon-links": "^6.3.4",
     "@storybook/html": "^6.3.4",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "sass": "^1.32.12",
+    "sass-loader": "^10",
+    "style-loader": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }

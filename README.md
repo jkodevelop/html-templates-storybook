@@ -17,3 +17,4 @@ for storybook documentation
 
 ### sources:
 https://dlim716.medium.com/storybook-setup-html-js-a2398f20f1b2
+https://medium.com/strands-tech-corner/storybook-configuration-in-react-project-ec59869f3e7d
