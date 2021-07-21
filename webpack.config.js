@@ -1,7 +1,16 @@
+const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const devMode = process.env.NODE_ENV !== 'production';
+
+function getImplicitGlobals() {
+  return new webpack.ProvidePlugin({
+    $: 'jquery',
+    jQuery: 'jquery',
+    jquery: 'jquery',
+  });
+}
 
 const indexHtmlName = 'index.html';
 const mainJSName = 'index.js';
@@ -31,7 +40,8 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: devMode ? '[name].css' : '[name].[hash].css',
       chunkFilename: devMode ? '[id].css' : '[id].[hash].css',
-    })
+    }),
+    getImplicitGlobals() // load vendor files
   ],
   module: {
     // right to left
@@ -44,7 +54,7 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, 'css-loader', {
           loader: 'sass-loader',
           options: {
-            additionalData: '@import "./templates/css/var.scss";',
+            additionalData: '@import "./templates/css/var.scss";', // global scss variables
           },
         }] // order matters here
       },
