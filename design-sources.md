@@ -11,3 +11,11 @@ sources to read on web design
   - https://codepen.io/danieledesantis/pen/gOpRrro
 - https://material.io/design/layout/spacing-methods.html#containers-and-ratios
 - https://www.carbondesignsystem.com/guidelines/spacing/overview/
+- https://medium.com/design-with-figma/everything-you-need-to-know-as-a-ui-designer-about-spacing-layout-grids-2bc269e12321
+- https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179
+
+### borders
+- https://freefrontend.com/css-border-examples/
+- https://bashooka.com/coding/27-css-border-style-animation-examples/
+- https://codepen.io/abdelRhman345/pen/oJOPdq
+- https://codepen.io/ARS/pen/vEwEPP
