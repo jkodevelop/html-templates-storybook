@@ -26,7 +26,9 @@ module.exports = {
   devServer: {
     hot: true,
     historyApiFallback: true,
-    port: 9001
+    port: 9001,
+    contentBase: './templates',
+    watchContentBase: true
   },
   plugins: [
     // setting up a basic html file for entry for web-app

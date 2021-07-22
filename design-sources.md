@@ -19,3 +19,4 @@ sources to read on web design
 - https://bashooka.com/coding/27-css-border-style-animation-examples/
 - https://codepen.io/abdelRhman345/pen/oJOPdq
 - https://codepen.io/ARS/pen/vEwEPP
+-- https://neumorphism.io/#e0e0e0
