@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  html{
+    background: $midsize-color url('big-spacing-720.png') repeat-y fixed center;
+  }
+  header, footer{
+    background-color: $midsize-color;
+  }
+}

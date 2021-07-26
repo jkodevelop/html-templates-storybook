@@ -1,3 +1,78 @@
-html {
-  background: $secondary-color url('big-spacing-1140.png') repeat-y fixed center;
+html {  
+  background: $defaultsize-color url('big-spacing-1140.png') repeat-y fixed center;
 }
+body{
+  display:flex;
+}
+header, footer{
+text-align: center;
+background-color: $defaultsize-color;
+height:50px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+.child {
+  background: orange;
+  text-align: center;
+  padding: 24px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.last-row {
+  grid-column: 1 / 3;
+}
+.child > span {
+  height: 50px;
+  background: darkred;
+  flex: 0 1 30%;
+}
+
+.decorative-line {
+  background-image: linear-gradient(var(--line-color), var(--line-color));
+  background-repeat: no-repeat;
+  background-size: 100% var(--line-height);
+  background-position: 0 center;
+}
+
+.ruler {
+  font-size: 28px;
+  margin:auto;
+  width: 100%;
+  text-align: center;
+  --line-color: #000;
+  --line-height: 3px;
+  background-image: linear-gradient(to right, #000, white 40%, white 60%, #000);
+  // background-repeat: no-repeat;
+  // background-size: 100% 3px;
+  // background-position: 0 center;
+  &::before{
+    content:'<';
+  }
+  &::after{
+    content:'>';
+  }
+}
+
+/* screen maxumum 1024 */
+@import "./style-media@1024.scss"; 
+/* screen maxumum 768 */
+@import "./style-media@768.scss";
+/* screen maxumum 480 */
+@import "./style-media@480.scss";
+
+

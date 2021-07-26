@@ -20,3 +20,10 @@ sources to read on web design
 - https://codepen.io/abdelRhman345/pen/oJOPdq
 - https://codepen.io/ARS/pen/vEwEPP
 -- https://neumorphism.io/#e0e0e0
+
+### media query
+- https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/
+- https://www.toptal.com/responsive-web/introduction-to-responsive-web-design-pseudo-elements-media-queries
+
+### color picker
+- https://htmlcolorcodes.com/

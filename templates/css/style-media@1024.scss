@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px) {
+  html{
+    background: $bigsize-color url('big-spacing-940.png') repeat-y fixed center;
+  }
+  header, footer{
+    background-color: $bigsize-color;
+  }
+}
