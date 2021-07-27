@@ -1,13 +1,9 @@
 import './css/style.scss';
 console.log('start',$);
 
-const ruler = document.getElementById('Ruler');
+const container = document.getElementById('Container');
 function updateSize(){
-  ruler.innerHTML = `&nbsp;&nbsp; ${window.innerWidth} px &nbsp;&nbsp;`;
+  container.setAttribute('data-wf', `Content width: ${window.innerWidth} px`);
 }
-window.addEventListener("resize", updateSize);
+window.addEventListener('resize', updateSize);
 updateSize();
-
-
-
-

@@ -1,9 +1,6 @@
 @media screen and (max-width: 480px) {
-  html{
+  html {
     background-image: none;
-    background-color: $smallsize-color;
-  }
-  header, footer{
-    background-color: $smallsize-color;
+    background-color: $smallsize-bgcolor;
   }
 }

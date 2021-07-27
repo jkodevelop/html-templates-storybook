@@ -27,3 +27,15 @@ sources to read on web design
 
 ### color picker
 - https://htmlcolorcodes.com/
+
+### Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+### css-general
+https://www.w3schools.com/cssref/css_units.asp
+
+### design-general
+https://webdesign.tutsplus.com/articles/a-beginners-guide-to-wireframing--webdesign-7399
+
+## wireframe css source
+https://meyerweb.com/eric/thoughts/2017/11/27/generating-wireframe-boxes-with-css-and-html5/
