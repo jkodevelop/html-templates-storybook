@@ -24,9 +24,12 @@ module.exports = {
     publicPath: '/'
   },
   devServer: {
+    // host/disableHostCheck = allow for internal network connection
+    host: '0.0.0.0',
+    disableHostCheck: true,
+    port: 9001,
     hot: true,
     historyApiFallback: true,
-    port: 9001,
     contentBase: './templates',
     watchContentBase: true
   },
