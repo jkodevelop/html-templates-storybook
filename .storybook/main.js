@@ -26,7 +26,7 @@ module.exports = {
 
     // Make whatever fine-grained changes you need
     config.module.rules.push({
-      test: /\.scss$/,
+      test: /\.(css|scss)$/,
       use: ['style-loader','css-loader',{
         loader: 'sass-loader',
         options: {
@@ -34,11 +34,6 @@ module.exports = {
         },
       }],
       include: path.resolve(__dirname, '../'),
-    });
-    config.module.rules.push({
-      test: /\.css$/,
-      use: 'style-loader!css-loader',
-      include: __dirname
     });
     config.plugins.push(getImplicitGlobals());
 
